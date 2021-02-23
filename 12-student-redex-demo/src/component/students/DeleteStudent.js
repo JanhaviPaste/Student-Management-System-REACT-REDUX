@@ -19,7 +19,7 @@ class DeleteStudent extends Component {
       );
   }
   render() {
-    return <p>Processing...</p>;
+    return <p>Process...</p>;
   }
 }
 
