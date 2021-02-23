@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import axios from "axios";
 class DeleteStudent extends Component {
   state = {};
+//component did mount method
   componentDidMount() {
     axios
       .delete(
