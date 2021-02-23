@@ -40,7 +40,7 @@ class AddStudent extends Component {
     }
     if (this.state.studentName === "") {
       flag = false;
-      this.setState({ nameError: "Student Name Is Required" });
+      this.setState({ nameError: "Student Name Mandatory" });
     } else {
       this.setState({ nameError: "" });
     }
