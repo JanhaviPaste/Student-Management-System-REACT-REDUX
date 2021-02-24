@@ -14,7 +14,7 @@ class DeleteStudent extends Component {
           this.props.history.push("/students");
         },
         (error) => {
-          alert("Student is not deleted.");
+          alert("Operation Failed");
         }
       );
   }
